@@ -1,4 +1,4 @@
- 	Goal
+## Goal
 A digital river is a sequence of numbers where every number is followed by the same number plus the sum of its digits. In such a sequence 123 is followed by 129 (since 1 + 2 + 3 = 6), which again is followed by 141.
 
 We call a digital river river K, if it starts with the value K.
@@ -10,17 +10,24 @@ Digital rivers can meet. This happens when two digital rivers share the same val
 Given two meeting digital rivers print out the meeting point.
 
 (Idea : BIO'99)
-Input
+
+## Input
 Line 1: The first river r1.
+
 Line 2: The second river r2.
-Output
+## Output
 Line 1 : The meeting point of the rivers given.
-Constraints
+## Constraints
 0 < r1 ≤ 20000000
+
 0 < r2 ≤ 20000000
-Example
+## Example
+
 Input
-32
-47
+
+	32
+	47
+
 Output
-47
+
+	47

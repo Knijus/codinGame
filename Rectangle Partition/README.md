@@ -1,4 +1,4 @@
- 	Goal
+## Goal
 There is a rectangle of given width w and height h,
 
 On the width side, you are given a list of measurements.
@@ -9,34 +9,47 @@ Draw perpendicular lines from the measurements to partition the rectangle into s
 In all sub-rectangles (include the combinations of smaller rectangles), how many of them are squares?
 
 
-Example
+### Example
 
 w = 10
+
 h = 5
+
 measurements on x-axis: 2, 5
+
 measurements on y-axis: 3
 
-   ___2______5__________ 
-  |   |      |          |
-  |   |      |          |
- 3|___|______|__________|
-  |   |      |          |
-  |___|______|__________|
+       ___2______5__________ 
+      |   |      |          |
+      |   |      |          |
+     3|___|______|__________|
+      |   |      |          |
+      |___|______|__________|
 
 Number of squares in sub-rectangles = 4 (one 2x2, one 3x3, two 5x5)
-Input
+
+### Input
 Line 1: Integers w h countX countY, separated by space
+
 Line 2: list of measurements on the width side, countX integers separated by space, sorted in asc order
+
 Line 3: list of measurements on the height side, countY integers separated by space, sorted in asc order
-Output
+
+### Output
 Line 1: the number of squares in sub-rectangles created by the added lines
-Constraints
+
+### Constraints
 1 ≤ w, h ≤ 20,000
+
 1 ≤ number of measurements on each axis ≤ 500
-Example
+
+## Example
 Input
-10 5 2 1
-2 5
-3
+
+  10 5 2 1
+  2 5
+  3
+
 Output
-4
+
+  4

@@ -14,7 +14,7 @@ The N following lines: the strength Pi of each horse. Pi is an integer.
 ### Output
 The difference D between the two closest strengths. D is an integer greater than or equal to 0.
 
-Constraints
+### Constraints
 
 1 < N  < 100000
 
