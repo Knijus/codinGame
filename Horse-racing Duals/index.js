@@ -1,5 +1,5 @@
 function smallestDifference(input) {
-	const inputArray = input.split('/n');
+	const inputArray = input.split('\n');
 
 	// Start of solution for puzzle
 	
@@ -29,3 +29,5 @@ function smallestDifference(input) {
 		return inputArray.shift();
 	}
 }
+
+module.exports = smallestDifference;
