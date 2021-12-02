@@ -11,8 +11,8 @@ Recently I have started to learn programing. I have learned teoretical knowledge
 Sometimes I find myself some difficulties with finding the right way to complete all testcases and ended up googling. My searches weren`t always 100% succesful, so I came up with the idea to share my solutions to help others like me.
 
 ## **Content** 
-All folders consists with two files: 
-- index.js - solution for certain puzzle.
-- README - puzzle`s description.
-
+All folders consists with: 
+- index.js - solution for certain puzzle;
+- README - puzzle`s description;
+- Test case scenarios and unit tests for puzzle
 
