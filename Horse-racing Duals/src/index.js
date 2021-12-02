@@ -3,7 +3,7 @@ function smallestDifference(input) {
 
 	// Start of solution for puzzle
 	
-	let horses = [];
+	const horses = [];
 	const N = parseInt(readline());
 
 	for (let i = 0; i < N; i++) {
