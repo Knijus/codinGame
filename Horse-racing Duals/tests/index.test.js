@@ -1,4 +1,4 @@
-const testSubject = require('../index');
+const testSubject = require('../src/index');
 const fs = require('fs');
 const path = require("path");
 
