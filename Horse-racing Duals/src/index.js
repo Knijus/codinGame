@@ -21,7 +21,7 @@ function smallestDifference(input) {
 		}
 	}
 
-	return smallestDiff; // console.log() instead of return
+	console.log(smallestDiff); 
 
 	// End of solution
 
